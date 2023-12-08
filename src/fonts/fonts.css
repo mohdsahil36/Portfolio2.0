@@ -1,0 +1,6 @@
+/*custom fonts to be used*/
+
+@font-face {
+    font-family: 'Avant Garde';
+    src: url('./Avantgarde-Regular.otf') format('otf');
+}

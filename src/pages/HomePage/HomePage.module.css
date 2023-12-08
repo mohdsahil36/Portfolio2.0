@@ -1,0 +1,49 @@
+.profileHomePage {
+    width: 100%;
+    text-align: center;
+    padding: 1.125rem; 
+    box-sizing: border-box; 
+}
+
+p {
+    margin-bottom: 0.75rem; 
+}
+
+.name, .degn, .work {
+    text-transform: uppercase;
+}
+
+.name {
+    color: #b7ab98;
+    opacity: 0.75;
+    font-size: 1rem; 
+    font-weight: 500;
+    letter-spacing: -0.025em;
+}
+
+.degn {
+    font-size: 3rem;
+    color: #eb5939;
+    opacity: 0.85;
+    font-weight: 600;
+}
+
+.work {
+    color: #b7ab98;
+    font-weight: 500;
+    letter-spacing: -0.05em;
+}
+
+@media screen and (min-width: 767px) {
+    .name {
+        font-size: 1.5rem;
+    }
+
+    .degn {
+        font-size: 4.5rem;
+    }
+
+    .work {
+        font-size: 1.25rem; 
+    }
+}

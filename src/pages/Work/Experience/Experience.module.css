@@ -1,0 +1,50 @@
+.exp{
+    width:90vw;
+}
+.current,.prevYearOne-sec{
+    padding: 1.25rem 1.25rem 1.25rem 0;
+}
+.expTitle{
+    color: #b7ab98;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+}
+.currentYear,.prevYearOne{
+    text-transform: uppercase;
+    color: #b7ab98;
+    font-weight: 600;
+    font-size: 1.325rem;
+}
+@media screen and (min-width:767px){
+    .currentYear,.prevYearOne{
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width:1024px){
+    .currentYear,.prevYearOne{
+        font-size: 2.5rem;
+    }
+}
+
+.work-designation{
+    text-transform: capitalize;
+    color: #b7ab98;
+    font-weight: 600;
+    letter-spacing: -.03em;
+}
+.company{
+    text-transform: capitalize;
+    color: #b7ab98;
+}
+@media screen and (min-width:767px){
+    .work-designation{
+        font-size: 1.95rem;
+    }
+    .company{
+        font-size: 1rem;
+    }
+}
+

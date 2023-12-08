@@ -1,0 +1,55 @@
+.certTitle{
+    color: #b7ab98;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+}
+.cert{
+    width:90vw;
+}
+.certDomain{
+    text-transform: uppercase;
+    color: #b7ab98;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+@media screen and (min-width:767px){
+    .certDomain{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width:1024px){
+    .certDomain{
+        font-size: 2.5rem;
+    }
+}
+.certificate-details{
+    text-transform: capitalize;
+    color: #b7ab98;
+    font-weight: 600;
+    letter-spacing: -.03em;
+    text-decoration: none;
+    text-wrap: wrap;
+    padding: 0.35rem 0.35rem 0.35rem 0;
+    cursor: pointer;
+    background: 
+    linear-gradient(#eb5939 0 0) no-repeat
+    calc(200% - var(--i, 0) * 100%) 100% / 200% calc(100% * var(--i, 0) + .08em);
+    transition: .4s calc(var(--i, 0) * .3s), background-position .3s calc(.3s - calc(var(--i, 0) * .3s))
+}
+@media screen and (min-width:767px){
+    .certificate-details{
+        font-size: 1.95rem;;
+    }
+}
+.certificate-details:hover{
+    --i: 1;
+    color:black;
+}
+.issueingOrg{
+    text-transform: capitalize;
+    color: #b7ab98;
+    font-size: 1rem;
+}

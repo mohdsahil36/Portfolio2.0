@@ -1,0 +1,35 @@
+/* .work{
+    position: absolute;
+    top: 22%;
+    left: 4%;
+    max-width: 22.45rem;
+}
+@media screen and (min-width:767px){
+    .work{
+        max-width:42rem;
+    }
+}
+@media screen and (min-width:1024px){
+    .work{
+        max-width:85rem;
+    }
+} */
+.work{
+    padding: 2.35rem 2.35rem 0 1rem;
+}
+
+.workTitle{
+    color: #b7ab98;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+}
+.quote{
+    text-transform: uppercase;
+    color: #b7ab98;
+    margin-top: 1rem;
+    padding: 1rem 0;
+    border-top: 1px solid grey;
+}

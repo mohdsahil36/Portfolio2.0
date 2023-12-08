@@ -1,0 +1,19 @@
+
+.skills{
+    padding: 2.35rem 2.35rem 0 1rem;
+}
+.skillsTitle{
+    color: #b7ab98;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+}
+.quote{
+    text-transform: uppercase;
+    color: #b7ab98;
+    margin-top: 1rem;
+    padding: 1rem 0;
+    border-top: 1px solid grey;
+}

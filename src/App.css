@@ -1,0 +1,7 @@
+@import './fonts/fonts.css';
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+*{
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
+}

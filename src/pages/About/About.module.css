@@ -1,0 +1,34 @@
+.about{
+    padding: 2.35rem 2.35rem 0 1rem;
+}
+.aboutME-title{
+    color: #b7ab98;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+}
+.aboutME-text,.goTO,.impr{
+    color: #b7ab98;
+    font-size: 2.325rem;
+    letter-spacing: -.04em;
+    font-weight: 800;
+    text-underline-offset: 0.85rem;
+    line-height: 1.65;
+}
+@media screen and (min-width:767px){
+    .aboutME-text,.goTO,.impr{
+        font-size: 2.65rem;
+    }
+}
+.UIDev,.learn,.dedicate{
+    color: #eb5939;
+}
+.quote{
+    text-transform: uppercase;
+    color: #b7ab98;
+    margin-top: 1rem;
+    padding: 1rem 0;
+    border-top: 1px solid grey;
+}

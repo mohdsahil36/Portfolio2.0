@@ -1,0 +1,42 @@
+ul {
+    padding-left: 0.75rem;
+  }
+  
+  .connect-list {
+    list-style-type: '◥'; 
+    color: #eb5939;
+  }
+  
+  .emailVal,
+  .phoneVal {
+    color: #b7ab98;
+    margin-left: 0.45rem;
+    display: block;
+  }
+  
+  .emailID,
+  .phoneNumber {
+    text-decoration: none;
+    color: #b7ab98;
+    margin-left: 0.45rem;
+  }
+  
+  .emailID:hover,
+  .phoneNumber:hover {
+    color: #b7ab98;
+  }
+  
+  .email,
+  .phone {
+    font-weight: 600;
+  }
+  .emailID,.phoneNumber{
+    background: 
+    linear-gradient(#eb5939 0 0) no-repeat
+    calc(200% - var(--i, 0) * 100%) 100% / 200% calc(100% * var(--i, 0) + .08em);
+    transition: .4s calc(var(--i, 0) * .3s), background-position .3s calc(.3s - calc(var(--i, 0) * .3s))
+    }
+    .emailID:hover,.phoneNumber:hover{
+        --i: 1;
+        color:black;
+    }
