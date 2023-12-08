@@ -1,5 +1,6 @@
 import './App.css';
 import { RouterProvider,createBrowserRouter,Outlet } from 'react-router-dom';
+// import { AnimatePresence } from 'framer-motion';
 // import Particles from 'react-tsparticles';
 // import { loadFull } from "tsparticles";
 // import { useCallback } from "react";
@@ -94,9 +95,11 @@ function App() {
   return (
     <div className="App">
       {/* <Particles options={options} init={particlesInit} /> */}
-      <RouterProvider router={router}>
-        <Outlet />
-      </RouterProvider>
+      {/* <AnimatePresence> */}
+        <RouterProvider router={router}>
+          <Outlet />
+        </RouterProvider>
+      {/* </AnimatePresence> */}
     </div>
   );
 }
