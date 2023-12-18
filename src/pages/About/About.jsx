@@ -11,7 +11,7 @@ function About(){
             <div>
                 <div>
                     <div>
-                        <motion.p className={classes['aboutME-text']} variants={newtextVariants}>I'm a <span className={classes.UIDev}>UI developer</span> with strong focus on producing high quality and impactful digital experience to ther user.</motion.p>
+                        <motion.p className={classes['aboutME-text']} variants={newtextVariants}>I'm a <span className={classes.UIDev}>UI developer</span> with strong focus on producing high quality and impactful digital experience to the user.</motion.p>
                     </div>
                     <div className='mt-2'>
                         <motion.p className={classes.goTO} variants={newtextVariants}>I'm always up for <span className={classes.learn}>learning and improving</span>, both in my personal and professional life. </motion.p>
